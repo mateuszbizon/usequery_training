@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --a: #ecf2f9;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Rubik", sans-serif;
 }

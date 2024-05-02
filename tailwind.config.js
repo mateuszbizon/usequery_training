@@ -10,6 +10,7 @@ export default {
         "primary-1": "#635bff",
         "secondary-1": "#00d4ff",
         "light-1": "#fff",
+        "light-2": "#ecf2f9",
         "dark-1": "#000",
         "dark-2": "#0a2540",
       }

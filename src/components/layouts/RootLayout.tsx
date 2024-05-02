@@ -7,7 +7,7 @@ type Props = {
 function RootLayout({ children }: Props) {
   return (
     <>
-        <main className='w-full sm:w-[90%] md:w-[85%] lg:w-[80%] mx-auto px-5'>
+        <main>
             {children}
         </main>
     </>
