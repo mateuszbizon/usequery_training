@@ -1,5 +1,3 @@
-import React from "react";
-
 function Homeheader() {
 	return (
 		<header className='min-h-screen flex flex-col items-center py-24 px-5 sm:px-16'>

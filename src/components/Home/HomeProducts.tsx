@@ -1,4 +1,3 @@
-import React from "react";
 import ProductsTypesList from "../lists/ProductsTypesList";
 
 function HomeProducts() {
