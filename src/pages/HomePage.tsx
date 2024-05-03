@@ -5,11 +5,11 @@ import Homeheader from "../components/Home/Homeheader";
 
 function HomePage() {
 	return (
-		<RootLayout>
+		<>
 			<HomeGradient />
 			<Homeheader />
 			<HomeProducts />
-		</RootLayout>
+		</>
 	);
 }
 
