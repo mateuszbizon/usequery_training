@@ -11,8 +11,10 @@ function ProductsPage() {
 
   return (
     <RootLayout>
-        <h1 className="text-1 text-center text-line">Products</h1>
-        <ProductsList products={data?.products} />
+        <div className="main-container">
+          <h1 className="text-1 text-center text-line">Products</h1>
+          <ProductsList products={data?.products} />
+        </div>
     </RootLayout>
   )
 }
