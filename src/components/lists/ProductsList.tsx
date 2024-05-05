@@ -6,7 +6,7 @@ type Props = {
 
 function ProductsList({ products }: Props) {
   return (
-    <div className="grid-container mt-10">
+    <div className="grid-container">
       {products?.map(item => {
         return (
           <ProductCard key={item.id} link={`/product/${item.id}`} name={item.title} img={item.thumbnail} />
