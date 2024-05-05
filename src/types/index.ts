@@ -1,9 +1,3 @@
-type TProductsTypesCard = {
-	name: string;
-	img: string;
-	link: string;
-};
-
 type TProduct = {
 	id: number;
 	title: string;

@@ -6,7 +6,7 @@ import commentsImg from "../../assets/images/comments_img.jpg";
 import quotesImg from "../../assets/images/quotes_img.jpg";
 import recipesImg from "../../assets/images/recipes_img.jpg";
 import todosImg from "../../assets/images/todos_img.jpg";
-import ProductsTypesCard from "../cards/ProductsTypesCard";
+import ProductCard from "../cards/ProductCard";
 
 const PRODUCTS_TYPES_LIST = [
 	{ name: "Products", img: productImg, link: "/products" },
@@ -23,7 +23,7 @@ function ProductsTypesList() {
 	return (
 		<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5'>
 			{PRODUCTS_TYPES_LIST.map(item => {
-				return <ProductsTypesCard key={item.name} product={item} />;
+				return <ProductCard key={item.name} link={item.link} img={item.img} name={item.name} />;
 			})}
 		</div>
 	);
