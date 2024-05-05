@@ -15,6 +15,10 @@ body {
         @apply w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] xl:w-[75%] mx-auto py-10;
     }
 
+    .grid-container {
+        @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5;
+    }
+
     .text-1 {
         @apply text-4xl sm:text-5xl lg:text-7xl font-medium
     }

@@ -1,11 +1,18 @@
+import ProductCard from "../cards/ProductCard"
+
 type Props = {
     products: TProduct[]
 }
 
 function ProductsList({ products }: Props) {
-    console.log(products)
   return (
-    <div>ProductsList</div>
+    <div className="grid-container mt-10">
+      {products?.map(item => {
+        return (
+          <ProductCard key={item.id} link={`/product/${item.id}`} name={item.title} img={item.thumbnail} />
+        )
+      })}
+    </div>
   )
 }
 
